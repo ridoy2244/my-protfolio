@@ -61,12 +61,12 @@
     color:black;
 }
 .btn a:hover{
-    background: none;
     color:white;
     box-sizing: border-box;
     background-color: crimson;
     transition: 0.5s;
 }
+
         /* about section */
 
 .about{
@@ -84,7 +84,7 @@
 }
 .title-head-color{
     margin: 0 10px;
-    color: orange;
+    color: red;
 }
 .about-ditails{
     display: flex;
@@ -99,6 +99,48 @@
     text-align:justify ;
     margin: 20px 0;
 }
+        /* about section end */
+        /* services section  */
+
+.services-Details{
+    background-color: black;
+    padding: 100px 0;
+
+}
+
+.services-title{
+    color: white;
+}
+.ditails{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+.ditail{
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    margin-right: 40px;
+    background-color:#111;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+.ditail-icon{
+    font-size: 40px;
+}
+.ditail-title{
+    margin: 20px 0;
+    color: white;
+
+}
+.ditail:hover{
+    background-color:crimson;
+    color: white;
+    transition: 0.5s
+}
+/* services section end */
 
 
 
