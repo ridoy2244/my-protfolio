@@ -7,8 +7,15 @@
     font-family: 'Ubuntu', sans-serif;
 }
     /* header style part */
+    .nav-bar{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
 .nav-items{
     display: flex;
+    position: fixed;
+    width: 100%;
     background-color: black;
     justify-content: space-around;
     align-items: center;
@@ -39,16 +46,14 @@
 }
 /* header banner */
 .header-row{
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
     width: 100%;
 }
 .heder-ditails{
     font-size: 40px;
-    margin: 0 100px;
+    margin: 200px 100px;
 }
 .btn{
     text-decoration: none;
@@ -133,6 +138,7 @@
 }
 .ditail-icon{
     font-size: 40px;
+    
 }
 .ditail-title{
     margin: 20px 0;
@@ -146,9 +152,69 @@
 }
 /* services section end */
 /* skill section */
-.skills{
-    
 
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 100px 100px;
+    
+}
+.skill-info{
+    text-align: justify;
+    font-size: 18px;
+}
+.skill-info p{
+    margin: 20px 0;
+}
+.right{
+    margin-left: 30px;
+}
+.right .line{
+    margin-bottom: 25px;
+}
+.right .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.right .bars{
+    background-color: lightgray;
+    height: 5px;
+    width: 100%;
+    position: relative;
+}
+.right .bars::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: crimson;
+}
+.right .html::before{
+    width: 90%;
+}
+.right .css::before{
+    width: 70%;
+}
+.right .php::before{
+    width: 60%;
+}
+.right .javascript::before{
+    width: 80%;
+}
+/* skills part end */
+
+
+
+
+
+
+@media (365) {
+    
 }
 
 
